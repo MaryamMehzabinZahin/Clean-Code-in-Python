@@ -83,4 +83,14 @@ lowercase_text = lowercase(text)
 ```
 8. Function names should be **verbs**
 
-9. A function produces a side effect if it does anything other than take a value in and return another value or values. For example, a side effect could be writing to a file or modifying a global variable. 
+9. A function produces a side effect if it does anything other than take a value in and return another value or values. For example, a side effect could be writing to a file or modifying a global variable.
+ ## How to write Clean Comments in Python: 
+ 1. Comments should not contradict the code.
+ 2. Comments should be written in complete sentences.
+ 4. Noise comments should be avoided. comments that do not add any value to the code are noise comments. Such as: 
+ ```
+ numbers = [1, 2, 3, 4, 5]
+
+ # This is a list of numbers.
+ ```
+ 6. We should not leave a commented-out code. All the debug code or debug messages should be removed before pushing to a version control system.
