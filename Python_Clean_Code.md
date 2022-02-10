@@ -2,7 +2,7 @@
 **Clean code** is a set of rules and principles that helps to keep our code readable, maintainable, and extendable.
 ## How to write Clean variables in Python:
 
- 1. we should use **nouns** for variable names
+ 1. We should use **nouns** for variable names
  2. We should use **meaningful** and **pronounceable** variable names
 ```text
 #this is bad
@@ -26,7 +26,7 @@ client_last_name = 'Smith'
  6. **Searchable** names are always preferred.
 ## How to write Clean Functions in Python:
  1. A function should be **small**  because it is easier to know what the function does.
- 2. we should **not use different words** for the same concept
+ 2. We should **not use different words** for the same concept
  ```
 # This is bad
 def get_name(): pass
@@ -106,3 +106,17 @@ lowercase_text = lowercase(text)
 4. **constants** should be **snake_case** and **all uppercase** (PI = 3.14159)
 
 5. **modules** should have short, **snake_case** names (numpy)
+
+## Line formatting in Python:
+
+1. indent using **4 spaces** (spaces are preferred over tabs).
+
+2. **lines** should not be longer than **79 characters**.
+
+3. **avoid multiple statements** on the **same line**.
+
+4. **top-level function** and **class definitions** are surrounded with **two blank lines**.
+
+5. **method definitions** inside a class are surrounded by a **single blank line**.
+
+6. **imports** should be on **separate lines**.
