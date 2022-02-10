@@ -94,3 +94,15 @@ lowercase_text = lowercase(text)
  # This is a list of numbers.
  ```
  6. We should not leave a commented-out code. All the debug code or debug messages should be removed before pushing to a version control system.
+
+ ## Naming conventions in Python:
+
+ 1. **class** names should be **CamelCase** (MyClass)
+
+ 2. **variable** names should be **snake_case** and **all lowercase** (first_name)
+
+ 3. **function** names should be **snake_case** and **all lowercase** (quick_sort())
+
+4. **constants** should be **snake_case** and **all uppercase** (PI = 3.14159)
+
+5. **modules** should have short, **snake_case** names (numpy)
