@@ -81,3 +81,6 @@ def lowercase(text):
 uppercase_text = uppercase(text)
 lowercase_text = lowercase(text)
 ```
+8. Function names should be **verbs**
+
+9. A function produces a side effect if it does anything other than take a value in and return another value or values. For example, a side effect could be writing to a file or modifying a global variable. 
