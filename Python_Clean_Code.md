@@ -120,3 +120,24 @@ lowercase_text = lowercase(text)
 5. **method definitions** inside a class are surrounded by a **single blank line**.
 
 6. **imports** should be on **separate lines**.
+
+## Few other important points
+1. Use modules rather than repeating the same code.
+2. Use virtual environment where it is possible.
+3. There are a lot of unique ways to implement a specific task in Python. These are concise methods that help in shortening the code and make it look elegant. Such as: List Comprehensions, Swapping Variables, Slicing. Try to use these.
+
+##### There are four most popular principles: DRY, KISS, SoC, and SOLID to write clean code. All of these are covered in the description above. I am giving a brief introduction of these four priciples below:
+1. **DRY** (Don't repeat yourself)
+Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+2. **KISS** (Keep it simple, stupid)
+Most systems work best if they are kept simple, rather than made complicated.
+3. **SoC** (Separation of concerns)
+SoC is a design principle for separating a computer program into distinct sections such that each section addresses a separate concern. A concern is a set of information that affects the code of a computer program.
+A good example of SoC is MVC (Model - View - Controller).
+4. **SOLID**
+It consists of the following five concepts:
+The Single-responsibility principle: "A class should have one, and only one, reason to change."
+The Open–closed principle: "Entities should be open for extension, but closed for modification."
+The Liskov substitution principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."
+The Interface segregation principle: "A client should not be forced to implement an interface that it doesn’t use."
+The Dependency inversion principle: "Depend upon abstractions, not concretions."
