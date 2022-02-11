@@ -10,7 +10,7 @@ a = 52
 #this is good
 age = 52
 ```
- 3.  **Same vocabulary** for the same type of variable is needed.
+ 3. **Same vocabulary** for the same type of variable is needed.
 ```python
 # This is bad
 client_first_name = 'Bob'
