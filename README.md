@@ -4,7 +4,7 @@
 
  1. We should use **nouns** for variable names.
  2. We should use **meaningful** variable names.
-```text
+```python
 #this is bad
 a = 52
 #this is good
