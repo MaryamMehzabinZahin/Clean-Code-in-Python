@@ -88,13 +88,13 @@ lowercase_text = lowercase(text)
  ## How to write Clean Comments in Python: 
  1. Comments should not contradict the code.
  2. Comments should be written in complete sentences.
- 4. Noise comments should be avoided. comments that do not add any value to the code are noise comments. Such as: 
+ 3. Noise comments should be avoided. comments that do not add any value to the code are noise comments. Such as: 
  ```python
  numbers = [1, 2, 3, 4, 5]
 
  # This is a list of numbers.
  ```
- 6. We should not leave a commented-out code. All the debug code or debug messages should be removed before pushing to a version control system.
+ 4. We should not leave a commented-out code. All the debug code or debug messages should be removed before pushing to a version control system.
 
  ## Naming conventions in Python:
 
@@ -104,9 +104,9 @@ lowercase_text = lowercase(text)
 
  3. **function** names should be **snake_case** and **all lowercase** (quick_sort()).
 
-4. **constants** should be **snake_case** and **all uppercase** (PI = 3.14159).
+ 4. **constants** should be **snake_case** and **all uppercase** (PI = 3.14159).
 
-5. **modules** should have short, **snake_case** names (numpy).
+ 5. **modules** should have short, **snake_case** names (numpy).
 
 ## Line formatting in Python:
 
