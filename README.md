@@ -142,3 +142,5 @@ The Open–closed principle: "Entities should be open for extension, but closed 
 The Liskov substitution principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."
 The Interface segregation principle: "A client should not be forced to implement an interface that it doesn’t use."
 The Dependency inversion principle: "Depend upon abstractions, not concretions."
+
+#### These are some rules only but clean coding can be ensured by practicing a lot.
