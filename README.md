@@ -144,3 +144,9 @@ The Interface segregation principle: "A client should not be forced to implement
 The Dependency inversion principle: "Depend upon abstractions, not concretions."
 
 #### These are some rules only but clean coding can be ensured by practicing a lot.
+
+##### References:
+ - [Python Clean Code: 6 Best Practices](https://towardsdatascience.com/python-clean-code-6-best-practices-to-make-your-python-functions-more-readable-7ea4c6171d60)
+ - [Clean Code in Python](https://testdriven.io/blog/clean-code-python/)
+ - [Best Practices to Write Clean Python Code](https://www.geeksforgeeks.org/best-practices-to-write-clean-python-code/)
+
