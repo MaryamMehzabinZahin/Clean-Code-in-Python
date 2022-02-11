@@ -2,15 +2,15 @@
 **Clean code** is a set of rules and principles that helps to keep our code readable, maintainable, and extendable.
 ## How to write Clean variables in Python:
 
- 1. We should use **nouns** for variable names
- 2. We should use **meaningful** and **pronounceable** variable names
+ 1. We should use **nouns** for variable names.
+ 2. We should use **meaningful** variable names.
 ```text
 #this is bad
 a = 52
 #this is good
 age = 52
 ```
- 3.  **same vocabulary** for the same type of variable is needed
+ 3.  **Same vocabulary** for the same type of variable is needed.
 ```
 # This is bad
 client_first_name = 'Bob'
@@ -22,11 +22,12 @@ client_last_name = 'Smith'
 ```
 
  4. Names should be **descriptive/intention-revealing.** Other developers should be able to figure out what a variable stores just by reading its name.
- 5.  We should always use **pronounceable** names.
+ 5. We should always use **pronounceable** names.
  6. **Searchable** names are always preferred.
 ## How to write Clean Functions in Python:
+
  1. A function should be **small**  because it is easier to know what the function does.
- 2. We should **not use different words** for the same concept
+ 2. We should **not use different words** for the same concept.
  ```
 # This is bad
 def get_name(): pass
@@ -39,7 +40,7 @@ def get_age(): pass
 
  3. We should **avoid duplication** because it creates redundancy and if we make a change to one piece of code, we need to remember to make the same change to another piece of code. If we forget to do so, we will introduce bugs into our code.
  4. Names should be **descriptive**. It is better to write long names rather than write vague names. A long descriptive name is better than a long descriptive comment.
- 5. Functions should only perform a **single task**
+ 5. Functions should only perform a **single task**.
  ```
 # This is bad
 def fetch_and_display_personnel(): 
@@ -97,15 +98,15 @@ lowercase_text = lowercase(text)
 
  ## Naming conventions in Python:
 
- 1. **class** names should be **CamelCase** (MyClass)
+ 1. **class** names should be **CamelCase** (MyClass).
 
- 2. **variable** names should be **snake_case** and **all lowercase** (first_name)
+ 2. **variable** names should be **snake_case** and **all lowercase** (first_name).
 
- 3. **function** names should be **snake_case** and **all lowercase** (quick_sort())
+ 3. **function** names should be **snake_case** and **all lowercase** (quick_sort()).
 
-4. **constants** should be **snake_case** and **all uppercase** (PI = 3.14159)
+4. **constants** should be **snake_case** and **all uppercase** (PI = 3.14159).
 
-5. **modules** should have short, **snake_case** names (numpy)
+5. **modules** should have short, **snake_case** names (numpy).
 
 ## Line formatting in Python:
 
