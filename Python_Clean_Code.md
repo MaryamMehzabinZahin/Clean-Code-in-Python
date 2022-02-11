@@ -11,7 +11,7 @@ a = 52
 age = 52
 ```
  3.  **Same vocabulary** for the same type of variable is needed.
-```
+```python
 # This is bad
 client_first_name = 'Bob'
 customer_last_name = 'Smith'
@@ -28,7 +28,7 @@ client_last_name = 'Smith'
 
  1. A function should be **small**  because it is easier to know what the function does.
  2. We should **not use different words** for the same concept.
- ```
+ ```python
 # This is bad
 def get_name(): pass
 def fetch_age(): pass
@@ -41,7 +41,7 @@ def get_age(): pass
  3. We should **avoid duplication** because it creates redundancy and if we make a change to one piece of code, we need to remember to make the same change to another piece of code. If we forget to do so, we will introduce bugs into our code.
  4. Names should be **descriptive**. It is better to write long names rather than write vague names. A long descriptive name is better than a long descriptive comment.
  5. Functions should only perform a **single task**.
- ```
+ ```python
 # This is bad
 def fetch_and_display_personnel(): 
 	pass
@@ -60,7 +60,7 @@ def display_personnel():
 	
 
  7. We should **not use flags** in functions. Flags are variables (usually booleans) passed to functions, which the function uses to determine its behavior. They are considered bad designs because functions should only perform one task. The easiest way to avoid flags is to split your function into smaller functions.
-```
+```python
 # This is bad
 def transform(text, uppercase):
     if uppercase:
@@ -89,7 +89,7 @@ lowercase_text = lowercase(text)
  1. Comments should not contradict the code.
  2. Comments should be written in complete sentences.
  4. Noise comments should be avoided. comments that do not add any value to the code are noise comments. Such as: 
- ```
+ ```python
  numbers = [1, 2, 3, 4, 5]
 
  # This is a list of numbers.
