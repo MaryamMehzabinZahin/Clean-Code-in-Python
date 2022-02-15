@@ -137,8 +137,10 @@ SoC is a design principle for separating a computer program into distinct sectio
 A good example of SoC is MVC (Model - View - Controller).
 4. **SOLID**
 It consists of the following five concepts:
-The Single-responsibility principle: "A class should have one, and only one, reason to change."
-The Open–closed principle: "Entities should be open for extension, but closed for modification."
-The Liskov substitution principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."
-The Interface segregation principle: "A client should not be forced to implement an interface that it doesn’t use."
-The Dependency inversion principle: "Depend upon abstractions, not concretions."
+ - The Single-responsibility principle: "A class should have one, and only one, reason to change."
+ - The Open–closed principle: "Entities should be open for extension, but closed for modification."
+ - The Liskov substitution principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."
+ - The Interface segregation principle: "A client should not be forced to implement an interface that it doesn’t use."
+ - The Dependency inversion principle: "Depend upon abstractions, not concretions."
+
+
