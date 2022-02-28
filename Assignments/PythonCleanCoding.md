@@ -4,7 +4,22 @@
 
  1. Use **nouns** for variable names.
  2. Use **meaningful** variable names.
+```python
+#This is bad
+a = 52
+#This is good
+age = 52
+```
  3. **Same vocabulary** for the same type of variable is needed.
+```python
+# This is bad
+client_first_name = 'Bob'
+customer_last_name = 'Smith'
+
+# This is good
+client_first_name = 'Bob'
+client_last_name = 'Smith'
+```
  4. Names should be **descriptive/intention-revealing.** Other developers should be able to figure out what a variable stores just by reading its name.
  5. Always use **pronounceable** names.
  6. **Searchable** names are always preferred.
@@ -15,6 +30,16 @@
 
  1. Function names should be **verbs**.
  2. **Do not use different words** for the same concept.
+```python
+# This is bad
+def get_name(): pass
+def fetch_age(): pass
+
+# This is good
+def get_name(): pass
+def get_age(): pass
+```
+
  3. **Avoid duplication** because it creates redundancy.
  4. Names should be **descriptive**. It is better to write long names rather than write vague names. A long descriptive name is better than a long descriptive comment.
  5. Functions should only perform a **single task**.
