@@ -73,14 +73,16 @@ def get_age(): pass
 
 class MyCircle:
 
-    def calculate_area(self, radius):
-        PI = 3.1416
+    def __init__(self,radius):
         self.radius = radius
-        area = PI * radius ** 2
+
+    def calculate_area(self):
+        PI = 3.1416
+        area = PI * self.radius ** 2
+        print(area)
 
 
 
-def main():
-    obj = MyCircle(3)
-
+obj = MyCircle(3)
+obj.calculate_area()
 ```
