@@ -7,6 +7,7 @@
 - [How to write clean modules and packages](#how-to-write-clean-modules-and-packages-in-python)
 - [How to format lines](#how-to-format-lines-in-python)
 - [How to do source file encoding](#how-to-do-source-file-encoding-in-python)
+- [How to write imports](#how-to-write-imports)
 - [String Quotes](#string-quotes)
 - [Other Recommendations](#other-recommendations)
 - [Example of a python code with the best practices](#example-of-a-python-code-with-the-best-practices)
@@ -67,9 +68,9 @@
  1. Imports should usually be on separate lines.
  2. Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants.
  3. imports should be grouped in the following order:
-   1. Standard library imports.
-   2. Related third-party imports.
-   3. Local application/library specific imports.
+    1. Standard library imports.
+    2. Related third-party imports.
+    3. Local application/library specific imports.
  4. You should put a blank line between each group of imports.
 ## String Quotes
  1. In Python, single-quoted strings and double-quoted strings are the same. This PEP does not make a recommendation for this. Pick a rule and stick to it. When a string contains single or double quote characters, however, use the other one to avoid backslashes in the string. It improves readability.
